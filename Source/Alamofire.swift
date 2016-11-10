@@ -421,6 +421,8 @@ public func upload(
 
 #if !os(watchOS)
 
+    #if IOS9
+    
 // MARK: - Stream Request
 
 // MARK: Hostname and Port
@@ -453,4 +455,5 @@ public func stream(with netService: NetService) -> StreamRequest {
     return SessionManager.default.stream(with: netService)
 }
 
+    #endif
 #endif
