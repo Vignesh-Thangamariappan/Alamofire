@@ -7,6 +7,7 @@
 [![Twitter](https://img.shields.io/badge/twitter-@AlamofireSF-blue.svg?style=flat)](http://twitter.com/AlamofireSF)
 
 Alamofire is an HTTP networking library written in Swift.
+This Alamofire is iOS 8.0 supported.
 
 - [Features](#features)
 - [Component Libraries](#component-libraries)
@@ -55,7 +56,7 @@ In order to keep Alamofire focused specifically on core networking implementatio
 
 ## Requirements
 
-- iOS 9.0+ / macOS 10.11+ / tvOS 9.0+ / watchOS 2.0+
+- iOS 8.0+ / macOS 10.11+ / tvOS 9.0+ / watchOS 2.0+
 - Xcode 8.0+
 - Swift 3.0+
 
@@ -117,7 +118,7 @@ $ brew install carthage
 To integrate Alamofire into your Xcode project using Carthage, specify it in your `Cartfile`:
 
 ```ogdl
-github "Alamofire/Alamofire" ~> 4.0
+github "tattn/Alamofire" "swift3-ios8"
 ```
 
 Run `carthage update` to build the framework and drag the built `Alamofire.framework` into your Xcode project.
